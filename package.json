@@ -1,0 +1,23 @@
+{
+  "name": "dd-dash-api",
+  "version": "1.0.0",
+  "description": "Dime A Dozen Clothing Inc Dashboard",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --harmony app"
+  },
+  "keywords": [
+    "koa",
+    "node"
+  ],
+  "author": "Dime A Dozen Clothing Inc",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "co-request": "^1.0.0",
+    "koa": "^1.1.2",
+    "koa-middlewares": "^4.1.0",
+    "mongoose": "^4.4.4"
+  }
+}
