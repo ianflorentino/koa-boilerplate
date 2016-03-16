@@ -1,17 +1,17 @@
 {
-  "name": "dd-dash-api",
+  "name": "simple-koa-boilerplate",
   "version": "1.0.0",
-  "description": "Dime A Dozen Clothing Inc Dashboard",
+  "description": "simple koa boilerplate",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --harmony app"
+    "start": "nodemon --harmony src/config/app"
   },
   "keywords": [
     "koa",
     "node"
   ],
-  "author": "Dime A Dozen Clothing Inc",
+  "author": "Ian Florentino",
   "license": "MIT",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",

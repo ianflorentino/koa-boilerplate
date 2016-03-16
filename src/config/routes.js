@@ -1,5 +1,5 @@
-var controller = require('./controllers/controller');
-var users = require('./controllers/user');
+var controller = require('../controllers/controller');
+var users = require('../controllers/user');
 var router = require('koa-middlewares').router();
 
 router

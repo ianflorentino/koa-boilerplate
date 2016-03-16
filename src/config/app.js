@@ -4,13 +4,13 @@ var koa = require('koa');
 var middlewares = require('koa-middlewares');
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/dd');
+mongoose.connect('mongodb://localhost/default');
 
 var app = koa();
 
 var router = require('./routes');
-var errors = require('./responses/errors');
-var pageNotFound = require('./responses/pageNotFound');
+var errors = require('../responses/errors');
+var pageNotFound = require('../responses/pageNotFound');
 
 // Need to use logger above all middleware to wrap requests
 app.use(middlewares.logger());
